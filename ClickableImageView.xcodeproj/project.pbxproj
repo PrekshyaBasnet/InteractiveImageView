@@ -12,6 +12,11 @@
 		953F3CB020EB5D4D0098A027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953F3CAE20EB5D4D0098A027 /* Main.storyboard */; };
 		953F3CB220EB5D530098A027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953F3CB120EB5D530098A027 /* Assets.xcassets */; };
 		953F3CB520EB5D530098A027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953F3CB320EB5D530098A027 /* LaunchScreen.storyboard */; };
+		953F3CC120EB5D6E0098A027 /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F3CBD20EB5D6E0098A027 /* PictureView.swift */; };
+		953F3CC220EB5D6E0098A027 /* SubImageViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F3CBE20EB5D6E0098A027 /* SubImageViews.swift */; };
+		953F3CC320EB5D6E0098A027 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F3CBF20EB5D6E0098A027 /* ImageModel.swift */; };
+		953F3CC420EB5D6E0098A027 /* SetupImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F3CC020EB5D6E0098A027 /* SetupImage.swift */; };
+		953F3CC620EB60790098A027 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F3CC520EB60790098A027 /* SampleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		953F3CB120EB5D530098A027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953F3CB420EB5D530098A027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		953F3CB620EB5D530098A027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953F3CBD20EB5D6E0098A027 /* PictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		953F3CBE20EB5D6E0098A027 /* SubImageViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubImageViews.swift; sourceTree = "<group>"; };
+		953F3CBF20EB5D6E0098A027 /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		953F3CC020EB5D6E0098A027 /* SetupImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupImage.swift; sourceTree = "<group>"; };
+		953F3CC520EB60790098A027 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,28 @@
 		953F3CA920EB5D4D0098A027 /* ClickableImageView */ = {
 			isa = PBXGroup;
 			children = (
+				953F3CBC20EB5D6E0098A027 /* ClickableImageUtils */,
 				953F3CAA20EB5D4D0098A027 /* AppDelegate.swift */,
 				953F3CAC20EB5D4D0098A027 /* ViewController.swift */,
 				953F3CAE20EB5D4D0098A027 /* Main.storyboard */,
 				953F3CB120EB5D530098A027 /* Assets.xcassets */,
 				953F3CB320EB5D530098A027 /* LaunchScreen.storyboard */,
 				953F3CB620EB5D530098A027 /* Info.plist */,
+				953F3CC520EB60790098A027 /* SampleModel.swift */,
 			);
 			path = ClickableImageView;
+			sourceTree = "<group>";
+		};
+		953F3CBC20EB5D6E0098A027 /* ClickableImageUtils */ = {
+			isa = PBXGroup;
+			children = (
+				953F3CBD20EB5D6E0098A027 /* PictureView.swift */,
+				953F3CBE20EB5D6E0098A027 /* SubImageViews.swift */,
+				953F3CBF20EB5D6E0098A027 /* ImageModel.swift */,
+				953F3CC020EB5D6E0098A027 /* SetupImage.swift */,
+			);
+			name = ClickableImageUtils;
+			path = ../../../../Documents/Projects/ClickableImageView/ClickableImageUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953F3CC120EB5D6E0098A027 /* PictureView.swift in Sources */,
+				953F3CC320EB5D6E0098A027 /* ImageModel.swift in Sources */,
+				953F3CC220EB5D6E0098A027 /* SubImageViews.swift in Sources */,
+				953F3CC420EB5D6E0098A027 /* SetupImage.swift in Sources */,
 				953F3CAD20EB5D4D0098A027 /* ViewController.swift in Sources */,
+				953F3CC620EB60790098A027 /* SampleModel.swift in Sources */,
 				953F3CAB20EB5D4D0098A027 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
